@@ -17,7 +17,7 @@ This project demonstrates how to integrate the CogniFit SDK into an Android appl
    git clone https://github.com/yourusername/yourrepository.git
    cd yourrepository
 
-2. Open the project in Android Studio.
+2. Open the project (Android_CogniFit_Integration) in Android Studio.
 
 3. Update the clientId, clientSecret, and userToken in the MainActivity.java, FetchAccessTokenTask.java, and ResultActivity.java files with your CogniFit credentials.
 
