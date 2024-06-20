@@ -28,7 +28,7 @@ This project demonstrates how to integrate the CogniFit SDK into an Android appl
 ### Obtaining Necessary Tokens
 
 - **Client ID and Client Secret**: These can be found in the CogniFit platform under the API Keys section.
-- **User Token**: This is obtained by making a call to the `register.php` script and should be saved for future use. Make sure to store this token securely. See more in the backend README file.
+- **User Token**: This is obtained by making a call to the `register.php` script and should be saved for future use. Make sure to store this token securely. See more in the [backend README file](Integration_CogniFit/Backend/readme.md)
 - **Access Token**: This can be obtained either through API calls directly from the frontend (Android Studio) or by making a call to the `accesstoken.php` script in your backend.
 
 
