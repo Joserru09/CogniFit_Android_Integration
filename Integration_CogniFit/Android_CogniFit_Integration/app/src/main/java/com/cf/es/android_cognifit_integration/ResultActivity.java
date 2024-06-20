@@ -35,9 +35,9 @@ public class ResultActivity extends AppCompatActivity {
     private static final String TAG = "ResultActivity";
     private static final String CHANNEL_ID = "DOWNLOAD_NOTIFICATION";
     private static final String API_URL = "https://api.cognifit.com/user-info/get-assessment-report";
-    private static final String CLIENT_ID = "b76cd92b3aa08ac0fe2706c9d8c9d744";  // Replace with a valid client ID (In your account, API keys section)
-    private static final String CLIENT_SECRET = "78fccdc9f7dec856b7ea6586d71424b2"; // Replace with a valid client secret (In your account, API keys section)
-    private static final String USER_TOKEN = "DQfs3xC7foFcdFovP/EgOsAyTuwEZM6PA6+xATM0tDTzT+LemlM/WZtUFlHuB3ytRA/a2fnqDB5Acsf5uyMDgg=="; // Obtained making an api call,see the readme file for more info
+    private static final String CLIENT_ID = "";  // Replace with a valid client ID (In your account, API keys section)
+    private static final String CLIENT_SECRET = ""; // Replace with a valid client secret (In your account, API keys section)
+    private static final String USER_TOKEN = ""; // Obtained making an api call,see the readme file for more info
     private static final int SESSION_ID = 1;
 
     @Override
