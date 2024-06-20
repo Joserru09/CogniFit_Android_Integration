@@ -19,7 +19,7 @@ This project demonstrates how to integrate the CogniFit SDK into an Android appl
 
 2. Open the project in Android Studio.
 
-3. Update the clientId, clientSecret, and userToken in the MainActivity.java, FetchAccessTokenTask.java, and ResultActivity.java files with your CogniFit credentials.
+3. Update the clientId, clientSecret, and userToken in the Config.java files with your CogniFit credentials.
 
 4. Run the project on your Android device or emulator.
 
