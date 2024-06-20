@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
     private WebView webView;
-    private static String activityKey = "CONCENTRATION_ASSESSMENT"; // Change to the desired activity key
+    private static String activityKey = "CONCENTRATION_ASSESSMENT"; // Change to the desired activity keyd
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
