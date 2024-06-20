@@ -24,8 +24,8 @@ Using backend scripts to handle API calls ensures that sensitive information, su
 
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/yourusername/yourrepository.git
-   cd yourrepository/backend
+   git clone https://Joserru09/CogniFit_Android_Integration
+   cd CogniFit_Android_Integration/backend
 2. Update the Scripts:
 Open register.php, accesstoken.php, assessment_values.php, and getassessmentreport.php and replace placeholders with your actual CogniFit client_id and client_secret
 
