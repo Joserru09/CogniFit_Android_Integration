@@ -8,7 +8,7 @@ This project demonstrates how to integrate the CogniFit SDK into an Android appl
 - Have an account on https://www.cognifit.com/developers
 - Android Studio
 - Basic knowledge of Android development
-- PHP server (for backend integration)
+- PHP server (optional for backend integration)
 
 ### Setup
 
