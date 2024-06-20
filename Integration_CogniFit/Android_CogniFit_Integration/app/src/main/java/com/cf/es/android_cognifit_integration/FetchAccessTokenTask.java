@@ -46,10 +46,9 @@ public class FetchAccessTokenTask extends AsyncTask<Void, Void, String> {
 
             // Create the JSON request body
             JSONObject jsonBody = new JSONObject();
-            jsonBody.put("client_id", "x");  // Replace with a valid client ID (In your account, API keys section)
-            jsonBody.put("client_secret", "x");  // Replace with a valid client secret (In your account, API keys section)
-            jsonBody.put("user_token", "x"); // Obtained making an api call,see the readme file for more info
-
+            jsonBody.put("client_id", Config.CLIENT_ID);  
+            jsonBody.put("client_secret", Config.CLIENT_SECRET);  
+            jsonBody.put("user_token", Config.USER_TOKEN); 
             // Write the request body to the connection
             OutputStream outputStream = urlConnection.getOutputStream();
             outputStream.write(jsonBody.toString().getBytes());

@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
     private WebView webView;
-    private static String clientId = ""; // Replace with a valid client ID (In your account, API keys section)
     private static String activityKey = "CONCENTRATION_ASSESSMENT"; // Change to the desired activity key
 
     @Override
@@ -69,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
             // Configure the container
             ContainerHTML5Configuration containerConfig = new ContainerHTML5Configuration.Builder()
-                    .setClientId(clientId)
+                    .setClientId(Config.CLIENT_ID)
                     .setAccessToken(accessToken)
                     .build();
             CognifitSDK.setContainerHTML5Configuration(containerConfig);

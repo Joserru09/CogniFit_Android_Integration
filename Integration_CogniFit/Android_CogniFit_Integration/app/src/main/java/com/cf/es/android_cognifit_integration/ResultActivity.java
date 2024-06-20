@@ -35,9 +35,6 @@ public class ResultActivity extends AppCompatActivity {
     private static final String TAG = "ResultActivity";
     private static final String CHANNEL_ID = "DOWNLOAD_NOTIFICATION";
     private static final String API_URL = "https://api.cognifit.com/user-info/get-assessment-report";
-    private static final String CLIENT_ID = "";  // Replace with a valid client ID (In your account, API keys section)
-    private static final String CLIENT_SECRET = ""; // Replace with a valid client secret (In your account, API keys section)
-    private static final String USER_TOKEN = ""; // Obtained making an api call,see the readme file for more info
     private static final int SESSION_ID = 1;
 
     @Override
@@ -56,9 +53,9 @@ public class ResultActivity extends AppCompatActivity {
 
         OkHttpClient client = new OkHttpClient();
         String jsonBody = "{" +
-                "\"client_id\": \"" + CLIENT_ID + "\"," +
-                "\"client_secret\": \"" + CLIENT_SECRET + "\"," +
-                "\"user_token\": \"" + USER_TOKEN + "\"," +
+                "\"client_id\": \"" + Config.CLIENT_ID + "\"," +
+                "\"client_secret\": \"" + Config.CLIENT_SECRET + "\"," +
+                "\"user_token\": \"" + Config.USER_TOKEN + "\"," +
                 "\"session_id\": " + SESSION_ID + "," +
                 "\"locale\": \"en\"," +
                 "\"report_types\": [" +
